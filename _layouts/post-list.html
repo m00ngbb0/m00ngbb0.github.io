@@ -8,15 +8,6 @@ layout: compress
 <!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
 <head>
     {% include head.html %}
-    <style>
-        /* 추가한 스타일 */
-        .post-box {
-            border: 2px solid black; /* 검정색 테두리 */
-            padding: 15px; /* 내용과 네모 박스 간의 간격 조절 */
-            margin-bottom: 15px; /* 각 네모 박스 간의 간격 조절 */
-            border-radius: 8px; /* 네모 박스의 모서리를 둥글게 조절 */
-        }
-    </style>
 </head>
 <body>
     {% include nav.html %}
@@ -30,19 +21,20 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                {% for post in site.posts %}
-                    {% if post.project == null %}
-                        <div class="post-box wow fadeInLeft" data-wow-duration="1.5s">
-                            <ul>
-                                <li>
-                                    <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                                    <p>{{ post.excerpt }}</p>
-                                    <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                                </li>
-                            </ul>
-                        </div>
-                    {% endif %}
-                {% endfor %}
+                <div class="post-list">
+                    {% for post in site.posts %} 
+                        {% if post.project == null %}
+                    <ul>
+                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <p>{{ post.excerpt }}</p>
+                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                        </li>
+                        <hr>
+                    </ul>
+                        {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </header>
