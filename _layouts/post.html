@@ -10,10 +10,15 @@
          <div class="content">
             <div class="post-title">
                <h1>{{ page.title }}</h1>
+               {% case page.title %}
+                  {% when 'Address Book' %}
+                     <p>This is a Address Book page. Welcome!</p>
+                  {% when 'Petclinic' %}
+                     <p>This is a Petclinic page. Welcome!</p>
+                  {% else %}
+                     <p>This is a Online Boutique page. Welcome!</p>
+               {% endcase %}
             </div>
-            <!-- <div class="entry-meta">
-               {% include meta.html %}
-            </div> -->
          </div>
       </div>
    </header>
