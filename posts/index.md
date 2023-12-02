@@ -61,6 +61,10 @@ comments: false
 <script>
     function toggleDescription(service) {
         var description = document.getElementById(service + 'Description');
-        description.classList.toggle('hidden-description');
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
     }
 </script>
