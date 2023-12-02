@@ -117,9 +117,26 @@ comments: false
 <br>
 <h2 style="text-align: center;">저는 주로 이것을 사용한 적이 있습니다</h2>
 
+<style>
+    /* Added custom styles for the second image container */
+    .second-service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 -10px;
+    }
+
+    /* Adjusted the width to accommodate three images in a row for the second set of icons */
+    .second-service-item {
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+
 <!-- Second Container (New) -->
 <div class="container">
-    <div class="row text-center">
+    <div class="row text-center second-service-container">
 
         <!-- New Skill 1 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
