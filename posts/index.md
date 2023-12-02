@@ -47,7 +47,9 @@ comments: false
             </p>
         </div>
     </div>
+</div>
 
+<div class="row text-center">
     <!-- Linux -->
     <div class="col-md-4" onclick="toggleDescription('linux')">
         <img class="rounded-circle img-fluid" src="../assets/img/svc/li.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
