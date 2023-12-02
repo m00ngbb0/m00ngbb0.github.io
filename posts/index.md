@@ -5,7 +5,7 @@ excerpt: "A List of Skills"
 comments: false
 ---
 
-<h4>저는 주로 이것을 사용합니다"</h4>
+<h2 style="text-align: center;">저는 주로 이것을 사용합니다</h2>
 
 <style>
     /* Added custom styles for the image container */
