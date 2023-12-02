@@ -8,7 +8,7 @@ comments: false
 
 ## Features
 * 간단한 자기소개
-
+<hr>
 <br>
 <br>
 ## Education
@@ -23,6 +23,7 @@ comments: false
 |------------------------|-----------------------|
 | 포항고등학교      | 2015.02  |
 
+<hr>
 <br>
 <br>
 ## Professional Development
