@@ -18,6 +18,7 @@ comments: false
         flex: 0 0 calc(33.33% - 20px);
         margin: 10px;
         text-align: center;
+        border: none;
     }
 </style>
 
