@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: My Skills
 excerpt: "A List of Skills"
 comments: false
