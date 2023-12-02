@@ -5,6 +5,8 @@ excerpt: "A List of Skills"
 comments: false
 ---
 
+<h4>저는 주로 이것을 사용합니다"</h4>
+
 <style>
     /* Added custom styles for the image container */
     .service-container {
@@ -19,7 +21,6 @@ comments: false
         flex: 0 0 calc(33.33% - 20px);
         margin: 10px;
         text-align: center;
-        box-sizing: border-box;
     }
 </style>
 
