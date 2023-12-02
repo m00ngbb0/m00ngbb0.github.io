@@ -90,14 +90,10 @@ comments: false
 <script>
     function toggleDescription(service) {
         var description = document.getElementById(service + 'Description');
-        var clickToView = document.querySelector(`#${service} + p`);
-
         if (description.style.display === 'none' || description.style.display === '') {
             description.style.display = 'block';
-            clickToView.style.display = 'none'; // Hide click-to-view details
         } else {
             description.style.display = 'none';
-            clickToView.style.display = 'block'; // Show click-to-view details
         }
     }
 </script>
