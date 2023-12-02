@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "AWS"
 excerpt: "Details about AWS"
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: page
 title: My Skills
 excerpt: "A List of Skills"
 comments: false
@@ -14,7 +14,7 @@ comments: false
 <div class="row text-center">
     <!-- AWS -->
     <div class="col-md-4">
-    <a href="aws.md">
+    <a href="{{ site.baseurl }}/aws">
         <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
         <h4 class="service-heading"><p>AWS</p></h4>
         </a>
