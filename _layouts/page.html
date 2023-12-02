@@ -1,22 +1,20 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<html class="no-js">
 <head>
     {% include head.html %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-TMmD9EBKanZ4dXMif6g9GOlalUAsJqZkWO+PfR9d2pb5tkIs+utBpEc+Nf3vcvXJ" crossorigin="anonymous">
+    <style>
+        .container-fluid {
+            max-width: 1200px; /* 최대 너비를 1200px로 설정 */
+        }
+    </style>
 </head>
 <body>
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
+        <div class="container-fluid animated fadeIn">
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
