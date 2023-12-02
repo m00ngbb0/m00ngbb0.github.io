@@ -1,6 +1,6 @@
 ---
-layout: posts
-title: AWS
+layout: post
+title: "AWS"
 excerpt: "Details about AWS"
 comments: false
 ---
