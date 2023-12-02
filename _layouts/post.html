@@ -12,9 +12,38 @@
                <h1>{{ page.title }}</h1>
                {% case page.title %}
                   {% when 'Address Book' %}
-                     <p>This is a Address Book page. Welcome!</p>
+                     <h2 id="summary">Summary</h2>
+                     <div class="bottom-margin"></div>
+                     
+                     <p>멀티 AZ로 구축된 DB와 연동된 전화번호부 웹 서비스를 운영합니다.<br>
+                     모든 리소스는 AWS 인프라에 Terraform으로 구축했습니다.</p>
+                     
+                     <p><br />
+                     <br /></p>
+                     
+                     <hr />
+                     
+                     <p><br /></p>
+                     
+                     <style>
+                        .bottom-margin {
+                           margin-bottom: 30px;
+                        }
+                     </style>
+                     
+                     <h2 id="tools--library">Tools &amp; Library</h2>
+                     <div class="bottom-margin"></div>
+                     <p><img src="https://img.shields.io/badge/AWS-232F3E?stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/PHP-777BB4?style=stylefor-the-badge&logo=PHP&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/> 
+                     <br />
+                     <br /></p>
+                     
+                     <hr />
                   {% when 'Petclinic' %}
-                     <h4 id="summary">Summary</h4>
+                     <h2 id="summary">Summary</h2>
                      <div class="bottom-margin"></div>
                      
                      <p>우리 페이지는 도서 구매 예약 시스템을 운영합니다.<br>
@@ -36,7 +65,7 @@
                         }
                      </style>
                      
-                     <h4 id="tools--library">Tools &amp; Library</h4>
+                     <h2 id="tools--library">Tools &amp; Library</h2>
                      <div class="bottom-margin"></div>
                      <p><img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
                      <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
