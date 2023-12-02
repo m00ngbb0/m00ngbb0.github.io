@@ -9,7 +9,7 @@ comments: false
     <div class="row text-center">
 
         <!-- AWS -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('aws')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('aws')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>AWS</p></h4>
             <p>Click to view details</p>
@@ -21,19 +21,19 @@ comments: false
         </div>
 
         <!-- Java Script -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('js')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('js')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/js.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Java Script</p></h4>
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="jsDescription" class="hidden-description" style="display: none;">
-                    Java Script를 이용하여 웹사이트의 동적인 요소를 구현해 본 경험이 있습니다. Node.js를 사용하여 서버 사이드 애플리케이션을 구현해 본 경험이 있습니다.
+                    JavaScript를 이용하여 웹사이트의 동적인 요소를 구현해 본 경험이 있습니다. Node.js를 사용하여 서버 사이드 애플리케이션을 구현해 본 경험이 있습니다.
                 </p>
             </div>
         </div>
 
         <!-- Kubernetes -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('kubernetes')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('kubernetes')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/ks.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Kubernetes</p></h4>
             <p>Click to view details</p>
@@ -44,12 +44,8 @@ comments: false
             </div>
         </div>
 
-    </div>
-
-    <div class="row text-center">
-
         <!-- Linux -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('linux')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('linux')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/li.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Linux</p></h4>
             <p>Click to view details</p>
@@ -61,7 +57,7 @@ comments: false
         </div>
 
         <!-- Terraform -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('terraform')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('terraform')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/te.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Terraform</p></h4>
             <p>Click to view details</p>
@@ -73,7 +69,7 @@ comments: false
         </div>
 
         <!-- Visual Studio Code -->
-        <div class="col-md-4 mb-4" onclick="toggleDescription('vscode')">
+        <div class="col-md-4 col-sm-6 mb-4" onclick="toggleDescription('vscode')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/vs.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Visual Studio Code</p></h4>
             <p>Click to view details</p>
