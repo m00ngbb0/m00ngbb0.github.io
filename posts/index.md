@@ -15,8 +15,8 @@ comments: false
 
     /* Adjusted the width to accommodate three images in a row */
     .service-item {
-        flex: 0 0 calc(33.33% - 50px);
-        margin: 50px;
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
         text-align: center;
     }
 </style>
@@ -25,7 +25,7 @@ comments: false
     <div class="row text-center service-container">
 
         <!-- AWS -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('aws')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('aws')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="AWS Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>AWS</p></h4>
             <p>Click to view details</p>
@@ -37,7 +37,7 @@ comments: false
         </div>
 
         <!-- JavaScript -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('js')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('js')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/js.jpg" alt="JavaScript Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>JavaScript</p></h4>
             <p>Click to view details</p>
@@ -49,7 +49,7 @@ comments: false
         </div>
 
         <!-- Kubernetes -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('kubernetes')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('kubernetes')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/ks.jpg" alt="Kubernetes Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Kubernetes</p></h4>
             <p>Click to view details</p>
@@ -61,7 +61,7 @@ comments: false
         </div>
 
         <!-- Linux -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('linux')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('linux')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/li.jpg" alt="Linux Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Linux</p></h4>
             <p>Click to view details</p>
@@ -73,7 +73,7 @@ comments: false
         </div>
 
         <!-- Terraform -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('terraform')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('terraform')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/te.jpg" alt="Terraform Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Terraform</p></h4>
             <p>Click to view details</p>
@@ -85,7 +85,7 @@ comments: false
         </div>
 
         <!-- Visual Studio Code -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 service-item" onclick="toggleDescription('vscode')">
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('vscode')">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/vs.jpg" alt="VS Code Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Visual Studio Code</p></h4>
             <p>Click to view details</p>
