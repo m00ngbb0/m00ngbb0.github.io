@@ -13,12 +13,13 @@ comments: false
 
 <div class="row text-center">
     <!-- AWS -->
-    <div class="col-md-4">
-    <a href="{{ site.baseurl }}/aws">
+    <div class="col-md-4" onclick="toggleDescription('aws')">
         <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
         <h4 class="service-heading"><p>AWS</p></h4>
-        </a>
-        <div class="text-muted"><p>AWS 아키텍처를 구성한 뒤,<br /> 직접 생성하고 연결할 수 있습니다.<br /> <br /> 보안을 위해 VPC 및 서브넷을 생성하고,<br /> 역할과 정책을 구성할 수 있습니다.<br /> <br /> <br /></p></div>
+        <div class="text-muted"><p>Click to view details</p></div>
+        <div id="awsDescription" class="hidden-description">
+            AWS 아키텍처를 구성한 뒤,<br /> 직접 생성하고 연결할 수 있습니다.<br /> <br /> 보안을 위해 VPC 및 서브넷을 생성하고,<br /> 역할과 정책을 구성할 수 있습니다.
+        </div>
     </div>
 
     <!-- Java Script -->
