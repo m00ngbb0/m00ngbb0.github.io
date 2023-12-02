@@ -57,3 +57,10 @@ comments: false
         <div class="text-muted"><p>VS Code를 사용하여 코드 편집, 버전 관리,<br />플러그인 관리 등 다양한 작업을<br />수행할 수 있습니다.<br /><br /> VS Code의 단축키와 명령어를 이용하여 더욱 <br />효율적으로 코드 작업을 수행할 수 있습니다.</p></div>
     </div>
 </div>
+
+<script>
+    function toggleDescription(service) {
+        var description = document.getElementById(service + 'Description');
+        description.classList.toggle('hidden-description');
+    }
+</script>
