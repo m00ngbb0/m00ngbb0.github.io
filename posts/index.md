@@ -11,6 +11,7 @@ comments: false
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin: 0 -10px;
     }
 
     /* Adjusted the width to accommodate three images in a row */
@@ -19,17 +20,9 @@ comments: false
         margin: 10px;
         text-align: center;
     }
-
-    .title {
-        text-align: center;
-        font-size: 24px; /* Adjust the font size as needed */
-        margin-bottom: 20px; /* Add margin at the bottom for spacing */
-    }
 </style>
 
 <div class="container">
-    <div class="title">익숙한 기술</div>
-
     <div class="row text-center service-container">
 
         <!-- AWS -->
