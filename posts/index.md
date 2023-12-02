@@ -15,8 +15,8 @@ comments: false
 
     /* Adjusted the width to accommodate three images in a row */
     .service-item {
-        flex: 0 0 calc(33.33% - 5px);
-        margin: 1px;
+        flex: 0 0 calc(33.33% - 50px);
+        margin: 50px;
         text-align: center;
     }
 </style>
