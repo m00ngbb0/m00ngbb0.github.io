@@ -15,13 +15,13 @@ comments: false
 
 | **University**           | **Degree**            | **Major**            | **Graduation Year** |
 |------------------------|-----------------------|----------------------|----------------------|
-| [University Name]       | [Your Degree]         | [Your Major]         | [Year of Graduation] |
+| 동아대학교       | 졸업         | 경영정보학과         | 2021.02 |
 
 <br>
 
 | **High School**          | **Graduation Year**   |
 |------------------------|-----------------------|
-| [High School Name]      | [Year of Graduation]  |
+| 포항고등학교      | 2015.02  |
 
 <br>
 <br>
@@ -29,5 +29,5 @@ comments: false
 
 | **Course Name**          | **Institution**       | **Completion Year**  |
 |------------------------|-----------------------|----------------------|
-| [Course Title]          | [Institution Name]    | [Year of Completion] |
+| 클라우드 엔지니어 3기          | 베스핀 글로벌 테크센터    | 2023.11 |
 
