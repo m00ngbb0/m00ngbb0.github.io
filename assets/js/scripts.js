@@ -4,6 +4,7 @@ $(function() {
     animationClasses : { classin : 'dl-animate-in', classout : 'dl-animate-out' }
   });
 });
+
 // Need this to show animation when go back in browser
 window.onunload = function() {};
 
@@ -38,20 +39,21 @@ $(document).ready(function() {
         arrowColor: '#000',
         goupSpeed: 'normal'
     });
-	$('.image-popup').magnificPopup({
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
-    },
-    removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open. 
-    // make it unique to apply your CSS animations just to this exact popup
-    mainClass: 'mfp-fade'
-  });
+    
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+          tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+        },
+        removalDelay: 300, // Delay in milliseconds before popup is removed
+        // Class that is added to body when popup is open. 
+        // make it unique to apply your CSS animations just to this exact popup
+        mainClass: 'mfp-fade'
+    });
 });
