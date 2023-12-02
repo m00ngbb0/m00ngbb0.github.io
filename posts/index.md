@@ -114,8 +114,7 @@ comments: false
 </script>
 <br>
 <br>
-<br>
-<h2 style="text-align: center;">저는 주로 이것을 사용한 적이 있습니다</h2>
+<h2 style="text-align: center;">저는 이것을 사용한 적이 있습니다</h2>
 
 <style>
     /* Added custom styles for the second image container */

@@ -12,3 +12,18 @@ comments: false
 <br>
 <br>
 <br>
+## Education
+
+| **University**           | **Degree**            | **Major**            | **Graduation Year** |
+|------------------------|-----------------------|----------------------|----------------------|
+| [University Name]       | [Your Degree]         | [Your Major]         | [Year of Graduation] |
+
+| **High School**          | **Graduation Year**   |
+|------------------------|-----------------------|
+| [High School Name]      | [Year of Graduation]  |
+
+## Professional Development
+
+| **Course Name**          | **Institution**       | **Completion Year**  |
+|------------------------|-----------------------|----------------------|
+| [Course Title]          | [Institution Name]    | [Year of Completion] |
