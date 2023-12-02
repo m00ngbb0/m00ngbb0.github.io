@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Project Title
-excerpt: "Project Excerpt"
+title: Address Book
+excerpt: "A simple address book project"
 comments: false
 ---
 
@@ -15,33 +15,16 @@ comments: false
    <header class="header" role="banner">
       <div class="wrapper animated fadeIn">
          <div class="content">
-            <div class="post-title {% if page.feature %} feature {% endif %}">
+            <div class="post-title">
                <h1>{{ page.title }}</h1>
-               <h4>{{ page.date | date_to_string }}</h4>
-               {% if site.reading_time %}
-               <p class="reading-time">
-                  <i class="fa fa-clock-o"></i>
-                  {% include read-time.html %}
-               </p>
-               {% endif %}
-               {% if page.project %}
                <a class="btn zoombtn" href="{{site.url}}/projects/">
-               {% else %}
-               <a class="btn zoombtn" href="{{site.url}}/posts/">
-               {% endif %}
                   <i class="fa fa-chevron-left"></i>
                </a>
             </div>
-            {{ content }}
-            <div class="entry-meta">
-               {% include meta.html %}
-            </div>
+            <p>test</p> <!-- "test" 라는 글자만 나타날 부분 -->
          </div>
       </div>
    </header>
    {% include scripts.html %}
-   {% if site.mathjax == true %}
-      <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-   {% endif %}
 </body>
 </html>
