@@ -112,3 +112,84 @@ comments: false
         }
     }
 </script>
+
+<h2 style="text-align: center;">저는 주로 이것을 사용한 적이 있습니다</h2>
+
+<!-- Second Container (New) -->
+<div class="container">
+    <div class="row text-center">
+
+        <!-- New Skill 1 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/ap.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Apache</p></h4>
+        </div>
+
+        <!-- New Skill 2 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/ng.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>NGINX</p></h4>
+        </div>
+
+        <!-- New Skill 3 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/js.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Java Script</p></h4>
+        </div>
+
+        <!-- New Skill 4 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/sv.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Serverless<br /><br /></p></h4>
+        </div>
+
+        <!-- New Skill 5 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/ex.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Express</p></h4>
+        </div>
+
+        <!-- New Skill 6 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/fa.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Fastify</p></h4>
+        </div>
+
+        <!-- New Skill 7 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/po.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Postman</p></h4>
+        </div>
+
+        <!-- New Skill 8 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/gi.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>GitHub Actions<br /><br /></p></h4>
+        </div>
+
+        <!-- New Skill 9 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/sq.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>MySQL</p></h4>
+        </div>
+
+        <!-- New Skill 10 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/mo.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>MongoDB</p></h4>
+        </div>
+
+        <!-- New Skill 11 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/pr.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Prometheus</p></h4>
+        </div>
+
+        <!-- New Skill 12 -->
+        <div class="col-md-3">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/gr.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Grafana</p></h4>
+        </div>
+
+    </div>
+</div>
