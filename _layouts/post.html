@@ -11,12 +11,18 @@
             <div class="post-title">
                <h1>{{ page.title }}</h1>
                {% case page.title %}
+               <div class="bottom-margin"></div>
                   {% when 'Address Book' %}
+                     <br>
                      <h2 id="summary">Summary</h2>
                      <div class="bottom-margin"></div>
+
+                     <img src="../assets/img/addrbook/architecture.png" alt="Address Book Architecture" style="width: 900px; height: 450px;">
+                     <br>
                      
-                     <p>멀티 AZ로 구축된 DB와 연동된 전화번호부 웹 서비스를 운영합니다.<br>
-                     모든 리소스는 AWS 인프라에 Terraform으로 구축했습니다.</p>
+                     <p style="font-weight: normal;">AWS 환경에서 전화번호부 웹페이지를 구성합니다.<br>
+                     Terraform을 활용해 AWS 인프라를 구축하였으며 멀티 AZ 환경에서 서버를 운영합니다.<br>
+                     데이터베이스는 RDS를 사용하며, 배포한 애플리케이션은 데이터베이스와 상호작용합니다.<br></p>
                      
                      <p><br />
                      <br /></p>
@@ -30,29 +36,158 @@
                            margin-bottom: 30px;
                         }
                      </style>
+
+                     <h2 id="tools--library">Tools &amp; Library</h2>
+                     <div class="bottom-margin"></div>
+                     <div style="display: flex; gap: 10px;"></div>
+                     <!-- <div class="badge-group"> -->
+                     <p><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon%AWS&logoColor=FAFAFA" style="display: inline-block; margin-right: 10px;"/>
+                     <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=FAFAFA" style="display: inline-block; margin-right: 10px;"/>
+                     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP&logoColor=FAFAFA" style="display: inline-block; margin-right: 10px;"/>
+                     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=FAFAFA" style="display: inline-block; margin-right: 10px;"/>
+                     <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=Terraform&logoColor=FAFAFA" style="display: inline-block;"/>
+                     </div></p>
+                     <br>
+                     <br>
+
+                     <!-- <style>
+                        .badge-group img {
+                           margin-bottom: 10px;
+                           margin-right: 10px;
+                        }
+                     </style> -->
                      
-                     <h2 id="tools--library" style="margin-top: 0; margin-bottom: 10px;">Tools &amp; Library</h2>
-                     <div style="display: flex; margin-bottom: -5px;">
-                        <img src="https://img.shields.io/badge/AWS-232F3E?stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/>
+                     <!-- <h2 id="tools--library">Tools &amp; Library</h2>
+                     <div class="bottom-margin"></div>
+                     <div class="badge-group">
+                     <p><img src="https://img.shields.io/badge/AWS-232F3E?stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/>
                         <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
                         <img src="https://img.shields.io/badge/PHP-777BB4?style=stylefor-the-badge&logo=PHP&logoColor=FAFAFA"/>
                         <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
                         <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
-                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
-                        <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
                      </div>
+                     <br />
+                     <br /></p> -->
+                     
+                     <hr />
+<!-- 
+                     <br/>
+                     <h2 id="Architecture">Architecture</h2>
                      <div class="bottom-margin"></div>
+
+                     <img src="../assets/img/addrbook/architecture.png" alt="Address Book Architecture" style="width: 900px; height: 450px;">
+
+                     <br>
+
+                     <p style="font-weight: normal;">GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
+                     개발계와 운영계를 VPC 레벨에서 분리했으며<br>
+                     각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
+                     Kubernetes 내 리소스는 환경별 Bastion VM에서만 제어할 수 있습니다.<br>
+                     데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
+
+                     <p><br />
+                     <br /></p>
+
+                     <hr /> -->
+
+                     <br>
+
+                     <h2 id="Repo">Github Repository</h2>
+                     <div class="bottom-margin"></div>
+
+                     <p style="font-weight: normal;">Terraform 파일 관리를 위한 Repository입니다.<br></p>
+                     <a href="https://github.com/km00ng/address_book">Terraform files</a><br>
+                     <p style="font-weight: normal;">구현 방법을 확인할 수 있는  Notion 페이지입니다.<br></p>
+                     <a href="https://www.notion.so/terraform-Final-Lab-3d9dc55961924537acf8bbceedd1c53a">Notion</a><br>
+
+                     <div class="bottom-margin"></div>
+
+                     <p><br />
+                     <br /></p>
+
                      <hr />
                   {% when 'Petclinic' %}
+                  <br>
+                  <h2 id="summary">Summary</h2>
+                  <div class="bottom-margin"></div>
+                  <img src="../assets/img/petclinic/k8s_architecture.png" alt="Petclinic Architecture" style="width: 500px; height: 540px;">
+                  <br>
+                  <p style="font-weight: normal;">전자상거래 사이트 운영을 위한 인프라를 구축합니다.<br>
+                  소스코드는 <a href="">Petclinic</a>을 제공받아 활용했습니다.<br>
+                  서버는 GKE 기반 컨테이너 환경에서 구성했으며, 데이터베이스는 GCP의 CloudSQL을 사용합니다. <br>
+                  <br>
+                  구성은 다음과 같습니다.<br></p>
+                  * WEB : Apache<br>
+                  * WAS : Apache Tomcat<br>
+                  * DB : CloudSQL-MySQL <br>
+                  
+                  <p><br />
+                  <br /></p>
+                  
+                  <hr />
+                  
+                  <p><br /></p>
+                  
+                  <style>
+                     .bottom-margin {
+                        margin-bottom: 30px;
+                     }
+                  </style>
+                  
+                  <h2 id="tools--library">Tools &amp; Library</h2>
+                  <div class="bottom-margin"></div>
+                  <div style="display: flex; gap: 10px;"></div>
+                  <p><img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
+                  <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/Kubernetes-326CE5?stylefor-the-badge&logo=Kubernetes&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/><br>
+                  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?stylefor-the-badge&logo=Argo&logoColor=FAFAFA"/>
+                  <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
+                  <!-- <img src="https://img.shields.io/badge/Locust-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/> -->
+                  <img src="https://img.shields.io/badge/Slack-4A154B?stylefor-the-badge&logo=Slack&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=stylefor-the-badge&logo=PostgreSQL&logoColor=FAFAFA"/>
+                  <br />
+                  </div>
+
+                  <p><br />
+                  <br /></p>
+
+                  <hr />
+
+                  <br>
+
+                  <h2 id="Repo">Deploy</h2>
+                  <div class="bottom-margin"></div>
+                  
+                  <h3 id="github">Github Repository</h3>
+                  <p style="font-weight: normal;">소스코드와 Dockerfile을 관리하는 Git Repository입니다.<br></p>
+                  <a href="https://github.com/km00ng/k8s_petclinic">Petclinic SourceCode &amp; Manifests</a><br>
+                  <h3 id="notion">Deploy</h3>
+                  <p style="font-weight: normal;">구현 방법을 확인할 수 있는  Notion 페이지입니다.<br></p>
+                  <a href="https://www.notion.so/k8s-project-2967664488104e65b227909179bd82d5">Notion</a><br>
+
+                  <div class="bottom-margin"></div>
+
+                  <p><br />
+                  <br /></p>
+
+                  <hr />
+
+                  {% else %}
+                     <br>
                      <h2 id="summary">Summary</h2>
                      <div class="bottom-margin"></div>
-                     
-                     <p>우리 페이지는 도서 구매 예약 시스템을 운영합니다.<br>
-                     사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.<br>
-                     서버는 Docker image를 이용하여 K8s를 구축했습니다.<br>
-                     데이터베이스는 GCP를 이용하여 구축했습니다.<br>
-                     (현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)</p>
-                     
+
+                     <img src="../assets/img/boutique/architecture.jpg" alt="Boutique Architecture" style="width: 900px; height: 350px;">
+
+                     <br>
+
+                     <p style="font-weight: normal;">웹 기반 전자상거래 Online Boutique를 배포합니다.<br>
+                     소스 코드는 <a href="">Google Cloud Platform에서 제공하는 MicroService Demo</a>를 활용했습니다.<br>
+                     Terraform을 활용하여 인프라를 구축했으며 Cloud Build와 ArgoCD로 배포 자동화를 구현했습니다.<br>
+                     데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
+
                      <p><br />
                      <br /></p>
                      
@@ -68,22 +203,44 @@
                      
                      <h2 id="tools--library">Tools &amp; Library</h2>
                      <div class="bottom-margin"></div>
+                     <div style="display: flex; gap: 10px;"></div>
                      <p><img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
                      <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
                      <img src="https://img.shields.io/badge/Kubernetes-326CE5?stylefor-the-badge&logo=Kubernetes&logoColor=FAFAFA"/> 
                      <img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
                      <img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/><br>
-                     <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
-                     <img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
-                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?stylefor-the-badge&logo=Argo&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
+                     <!-- <img src="https://img.shields.io/badge/Locust-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/> -->
+                     <img src="https://img.shields.io/badge/Slack-4A154B?stylefor-the-badge&logo=Slack&logoColor=FAFAFA"/>
+                        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=stylefor-the-badge&logo=PostgreSQL&logoColor=FAFAFA"/>
                      <br />
                      <br /></p>
-                     
+                     </div>
+
                      <hr />
-                  {% else %}
-                     <p>This is a Online Boutique page. Welcome!</p>
+
+                     <br>
+
+                     <h2 id="Repo">Repository</h2>
+                     <div class="bottom-margin"></div>
+
+                     <p style="font-weight: normal;">Terraform 코드와 Kubernetes yaml 파일 관리를 위한 Repository입니다.<br>
+                     Kustomize를 사용해 서비스의 이미지를 관리하고 배포합니다.<br></p>
+                     <a href="https://github.com/cat1544/ING_k8s">Terraform &amp; Kubernetes Manifests</a><br>
+                     <p style="font-weight: normal;">Online Boutique 소스 코드와 Dockerfile 및 Cloudbuild.yaml 파일 관리를 위한 Repository입니다.<br></p>
+                     <a href="https://github.com/cat1544/ING">Online Boutique Source &amp; Build files</a><br>
+
+                     <div class="bottom-margin"></div>
+
+                     <p><br />
+                     <br /></p>
+
+                     <hr />
+
+                     <!-- <img src="../assets/img/boutique/terraform.jpg" alt="Terraform Folder" style="width: 400px; height: 330px;"> -->
+                     <!-- <img src="../assets/img/boutique/cicd.jpg" alt="CI/CD flow" style="width: 900px; height: 230px;"> -->
+
                {% endcase %}
             </div>
          </div>
